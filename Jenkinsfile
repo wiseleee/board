@@ -1,7 +1,7 @@
 def mainDir="."
 def ecrLoginHelper="docker-credential-ecr-login"
 def region="ap-northeast-1"
-def ecrUrl="54.168.148.170"
+def ecrUrl="598552988151.dkr.ecr.ap-northeast-1.amazonaws.com"
 def repository="board"
 def deployHost="54.168.148.170"
 
@@ -36,7 +36,7 @@ pipeline {
                     steps{
                         sshagent(credentials : ["deploy-key"]) {
                             sh "ssh -o StrictHostKeyChecking=no ubuntu@${deployHost} \
-                             'aws ecr get-login-password --region ${region} | docker login --username AWS --password-stdin ${ecrUrl}/${repository}'"
+                             'aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS --password-stdin 598552988151.dkr.ecr.ap-northeast-1.amazonaws.com/board'"
                         }
                     }
                 }
