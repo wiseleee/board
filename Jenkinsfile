@@ -32,14 +32,15 @@ pipeline {
                         }
                     }
                 }
-                stage('Deploy to AWS EC2 VM'){
-                    steps{
-                        sshagent(credentials : ["deploy-key"]) {
-                            sh "ssh -o StrictHostKeyChecking=no ubuntu@${deployHost} \
-                             'aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS --password-stdin 598552988151.dkr.ecr.ap-northeast-1.amazonaws.com/board'"
+                 stage('Deploy to AWS EC2 VM'){
+                            steps{
+                                sshagent(credentials : ["deploy-key"]) {
+                                    sh "ssh -o StrictHostKeyChecking=no ubuntu@${deployHost} \
+                                     'aws ecr get-login-password --region ${region} | docker login --username AWS --password-stdin ${ecrUrl}/${repository}; \
+                                      docker run -d -p 80:8080 -t ${ecrUrl}/${repository}:${currentBuild.number};'"
+                                }
+                            }
                         }
-                    }
-                }
 
     }
 }
