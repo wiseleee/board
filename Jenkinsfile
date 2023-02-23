@@ -36,7 +36,7 @@ pipeline {
                     steps{
                         sshagent(credentials : ["deploy-key"]) {
                             sh "ssh -o StrictHostKeyChecking=no ubuntu@${deployHost} \
-                             'aws ecr get-login-password --region ${region} | docker login --username AWS --password-stdin ${ecrUrl}/${repository}"
+                             'aws ecr get-login-password --region ${region} | docker login --username AWS --password-stdin ${ecrUrl}/${repository}'"
                         }
                     }
                 }
