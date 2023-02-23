@@ -1,9 +1,9 @@
-def mainDir="Chapter02/2-jenkins-docker"
+def mainDir="."
 def ecrLoginHelper="docker-credential-ecr-login"
-def region="<AWS Region>"
-def ecrUrl="<AWS ECR URL>"
-def repository="<Image Repository Name>"
-def deployHost="<Deploy VM Private IP>"
+def region="ap-northeast-1"
+def ecrUrl="598552988151.dkr.ecr.ap-northeast-1.amazonaws.com"
+def repository="board"
+def deployHost="54.168.148.170"
 
 pipeline {
     agent any
@@ -41,7 +41,7 @@ pipeline {
                 sshagent(credentials : ["deploy-key"]) {
                     sh "ssh -o StrictHostKeyChecking=no ubuntu@${deployHost} \
                      'aws ecr get-login-password --region ${region} | docker login --username AWS --password-stdin ${ecrUrl}/${repository}; \
-                      docker run -d -p 80:8080 -t ${ecrUrl}/${repository}:${currentBuild.number};'"
+                      docker run -d -p 8080:8888 -t ${ecrUrl}/${repository}:${currentBuild.number};'"
                 }
             }
         }
