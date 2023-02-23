@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Build Codes by Gradle') {
             steps {
-                gradlew clean build
+              sh "./gradlew clean build"
             }
         }
 
