@@ -56,10 +56,7 @@ jib {
   to {
     image = 'seoulit7/jib_test'
     tags = ['5.0']
-	auth {
-	  username = 'seoulit7'
-	  password = 'ha910197@@'
-	}
+
   }
   container {
     entrypoint = ['java', '-Dspring.profiles.active=test', '-jar', 'board-ver1.0.jar']
