@@ -5,175 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb84cfac-52ee-4aba-869d-03b1709e3b72" name="Changes" comment="test1">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/board.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.insight.board.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.springframework.ide.eclipse.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/BoardApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/aop/LoggerAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/aop/TransactionAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/controller/BoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/controller/JpaBoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/controller/RestBoardApiController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/controller/RestBoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/dto/BoardDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/dto/BoardFileDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/entity/BoardEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/entity/BoardFileEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/mapper/BoardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/repository/JpaBoardRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/service/BoardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/service/BoardServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/service/JpaBoardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/board/service/JpaBoardServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/common/ExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/common/FileUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/configuration/WebMvcConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/board/interceptor/LoggerInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/mapper/sql-board.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/boardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/boardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/boardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/jpaBoardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/jpaBoardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/jpaBoardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/restBoardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/restBoardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/board/restBoardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/templates/error/error_default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/test/board/BoardApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bootJarMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/BoardApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/aop/LoggerAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/aop/TransactionAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/controller/BoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/controller/JpaBoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/controller/RestBoardApiController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/controller/RestBoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/dto/BoardDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/dto/BoardFileDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/entity/BoardEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/entity/BoardFileEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/mapper/BoardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/repository/JpaBoardRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/service/BoardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/service/BoardServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/service/JpaBoardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/board/service/JpaBoardServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/common/ExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/common/FileUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/configuration/WebMvcConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/board/interceptor/LoggerInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-cache/jib-classpath-file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-cache/jib-main-class-file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-cache/layers/6b7d2c5dba5d33fa890975fb60e90dfd6eb9d5d0017a90d154c7adcd15888b43/c88d7aa8ed7a6d4c67dc5a1b6aa73540f19ed803089d248bbc1ca7ba69841243" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-cache/layers/a15cdd02dc6e6ee268770a6f3369f21b349c1da19c27b9df7a8fac427fbfc637/02236531745bda87aeacf36b35f34dfb6281c470849ad33ecd81b5c24e4c1842" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-cache/layers/b9aa6db71b508bc944b97cd78482c905b6e5669cf40f6a0e6c7d5a11ec287c40/9115413cf247191ba10531609433fb8a40042684627a743507d0ee314daa8e13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-cache/layers/d964791217e8f8aa82d72928cbd5684a64817ff8f112b7e2d305174f12832df0/992653df1532a2c6e81e92f60b57a2e7837c347d4270efb8c1be4dd7486c872c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-cache/selectors/34d4604b5cb2cf36a9284a8c8680f881b7883220f686394810d96fd101e4585f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-image.digest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-image.id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/jib-image.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/board-ver1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/mapper/sql-board.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/boardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/boardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/boardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/jpaBoardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/jpaBoardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/jpaBoardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/restBoardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/restBoardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/board/restBoardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/error/error_default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/20190310/517896580223309.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/20190310/518648676620319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/BoardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/aop/LoggerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/aop/TransactionAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/controller/JpaBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/controller/RestBoardApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/controller/RestBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/dto/BoardDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/dto/BoardFileDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/entity/BoardEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/entity/BoardFileEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/mapper/BoardMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/repository/JpaBoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/service/BoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/service/JpaBoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/board/service/JpaBoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/common/ExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/common/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/configuration/WebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/board/interceptor/LoggerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/sql-board.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/boardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/boardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/boardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/jpaBoardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/jpaBoardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/jpaBoardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/restBoardDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/restBoardList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/board/restBoardWrite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/error_default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +48,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -251,7 +86,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.31954023&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;cd9f26677aa013475b338eb8671f03c4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -341,8 +176,16 @@
       <workItem from="1676851694152" duration="7152000" />
       <workItem from="1677021777931" duration="2508000" />
       <workItem from="1677026866971" duration="4348000" />
-      <workItem from="1677123583086" duration="437000" />
+      <workItem from="1677123583086" duration="2739000" />
     </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1677124305116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677124305116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +196,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
