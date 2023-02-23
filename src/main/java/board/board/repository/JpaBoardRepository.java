@@ -11,10 +11,10 @@ import board.board.entity.BoardFileEntity;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface JpaBoardRepository extends CrudRepository<BoardEntity,Integer>{
+public interface JpaBoardRepository extends CrudRepository<BoardEntity, Integer>{
 
 	List<BoardEntity> findAllByOrderByBoardIdxDesc();
-	List<BoardEntity> findBoardByUpdatedDatetimeStartBetweenByBoardIdxDesc(String title, String contents);
+	
 	@Query("SELECT file FROM BoardFileEntity file WHERE board_idx = :boardIdx AND idx = :idx")
 	BoardFileEntity findBoardFile(@Param("boardIdx") int boardIdx, @Param("idx") int idx);
 }
